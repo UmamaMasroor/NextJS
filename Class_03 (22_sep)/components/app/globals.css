@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-color: aqua;
+    
+}
+.header-links{
+    display: flex;
+    /* padding: 15px; */
+    justify-content: center;
+
+}
+.header-links li{
+    padding: 10px;
+}
