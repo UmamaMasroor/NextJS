@@ -1,0 +1,24 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    padding: 80px;
+    padding-left: 470px;
+   
+}
+.testingResponsive{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+/* @media only screen and (max-width:600px) */
+
+@media only screen and (max-width:300px){
+    .testingResponsive{
+        width: 200px;
+        height: 200px;
+    }
+}
